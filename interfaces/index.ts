@@ -72,3 +72,9 @@ export interface CategoryProps {
   active?: boolean;
   onClick?: () => void;
 }
+
+export interface PillProps {
+  label: string;
+  active?: boolean;
+  onClick?: () => void;
+}
